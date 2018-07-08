@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# Author: Draget
+# Source: https://github.com/dragetd/asc2sc
+# License: GPL v3
+# Version: v1.0.0
+
 # convert ascii character to scancode for key press and release
 asc2sc() {
 	CHAR=$(echo "$1" | tr '[:lower:]' '[:upper:]')
